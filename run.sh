@@ -1,0 +1,1 @@
+k6 run  --env apis="commit,save" script.js
