@@ -1,0 +1,30 @@
+{
+    "options":{
+        "insecureSkipTLSVerify":true,
+        "Vus": 3,
+        "Stages" : [
+            {"duration":"10s","target":"10"},
+            {"duration":"5s","target":"100"},
+            {"duration":"5s","target":"50"},
+            {"duration":"5s","target":"0"}
+        ],
+        "thresholds":{
+            "API_ERROR":["rate<0.1"],
+            "https_req_duration": ["p(95)<2000"]
+        }
+    },
+    "oauth_token_url": "localhost:8080/token/gettoken",
+    "oauth_username": "",
+    "oauth_password": "",
+    "api_base_path": "",
+
+    "api_details":{
+        
+        "commit": {"capability_name":"transaction","url":"/commit/v1" ,"store_code":"12","store_id":"12","business_date":""},
+        "save": {"capability_name":"transaction",  "url":""},
+        "finance": {"capability_name":"financeplan", "url":""}       
+           
+           
+    }
+
+}

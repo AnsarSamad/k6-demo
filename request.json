@@ -1,0 +1,39 @@
+{
+    "commit":{
+        "firstname":"Ansar",
+        "lastname":"Samad",
+        "age":13,
+        "transactionDetails":{
+            "transactionSequenceNumber":"12312",
+            "storeCode":"497",
+            "storeId":"123",
+            "registerId":"123",
+            "businessdDate":""
+        }
+    },
+    "save":{
+        "firstname":"Bismi",
+        "lastname":"Vahid",
+        "age":10,
+        "transactionDetails":{
+            "transactionSequenceNumber":"12312",
+            "storeCode":"497",
+            "storeId":"123",
+            "registerId":"123",
+            "businessdDate":""
+        }
+    },
+    "finance":{
+        "firstname":"Rashid",
+        "lastname":"Samad",
+        "age":16,
+        "transactionDetails":{
+            "transactionSequenceNumber":"12312",
+            "storeCode":"497",
+            "storeId":"123",
+            "registerId":"123",
+            "businessdDate":""
+        }
+    }
+   
+}
